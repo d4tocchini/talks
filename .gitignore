@@ -2,5 +2,8 @@
 .svn
 log/*.log
 tmp/**
+*.psd
+*.mov
+*.mp4
 node_modules/
 .sass-cache
