@@ -16,7 +16,8 @@
 
 		<link rel="stylesheet" href="../../css/reveal.min.css">
 		<link rel="stylesheet" href="../../css/theme/default.css" id="theme">
-
+    <link rel="stylesheet" href="../../css/_static-d4.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="../../lib/css/zenburn.css">
 
@@ -120,11 +121,22 @@
           ">No Category-Defining Solution</h1>						
 				</section>
         
-        <section data-transition="zoom" data-background-transition="slide">
-          <h3>"What would you use to get your own website?"</h3>
-          <iframe src="http://player.vimeo.com/video/71486095" width="1200" height="900" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-          <p>We asked 100 random people in San Francisco</p>
-        </section>
+        <section data-state="sfhundred" data-transition="zoom" data-background-transition="slide">
+          
+          <h1><small><a>We asked 100 San Franciscans,</a></small></h1>
+          <h1 style="font-size:146px;">What would you use</h1>
+          <h1 style="font-size:113px;">to get your own website?</h1>						
+          
+          <div class="fragment roll-in">
+            <div style="margin-top:-310px;">
+              <iframe src="http://player.vimeo.com/video/71486095" width="960" height="500" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              <p></p>
+              <p><small>There is no incumbent & people are lost</small></p>
+            </div>
+          </div>
+				</section>
+        
+   
         
         <section data-transition="zoom" data-background-transition="slide">
           <h1 style="
@@ -145,7 +157,10 @@
         
         <section data-transition="linear" data-background-transition="slide">
           <h1 style="
-          ">Web stack as superpower</h1>
+            font-size: 165px;
+          ">the Web stack is</h1>
+          <h1 style="
+          ">today's superpower</h1>
         </section>
         
         <section data-transition="zoom" data-background-transition="slide" data-background="../../img/wp-ugly.png" data-background-size="contain">
@@ -178,9 +193,13 @@
           <h1 style="
             font-size: 128px;           
           ">Drag and drop builders</h1>
-          <h1 class="fragment roll-in" style="
-            font-size: 88px;            
-          ">solve a problem that doesn’t exist</h1>
+          <div class="fragment">
+            <h1 class="roll-in" style="
+              font-size: 88px;            
+            ">solve a problem that doesn’t exist</h1>
+            <p class="fragment roll-in" style="       
+            "><small>Giving non-designers baby Photoshop is a recipe for disaster</small></p>
+          </div>
         </section>
         
         <section data-transition="zoom" data-background-transition="slide">
@@ -213,18 +232,23 @@
         
         
         <section>
-          <h2>Really hard to setup a theme</h2>
+          <h1  style="
+            font-size: 73px;           
+          ">Too difficult for most to setup a theme</h1>
           <iframe src="http://player.vimeo.com/video/74361431" width="900" height="500" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-          <p><em>This is a video of what it takes to setup a basic WordPress theme, it's 8hrs played at 100,000% speed</em></p>
+          <p></p>
+          <p><em><small>This is a video of what it takes to setup a basic WordPress theme, it's 8hrs played at 100,000% speed.</small></em></p>
         </section>
         
         <section data-transition="zoom" data-background-transition="slide">
           <h1 style="
-            font-size: 234px;           
+            font-size: 273px;           
           ">RSS is dead</h1>
           <h1 class="fragment roll-in" style="
-            font-size: 101px;            
-          ">how to keep ‘em updated?</h1>
+            font-size: 52px;            
+          ">Hard for Site owners to stay connected to their audience</h1>
+          <p></p>
+          <p class="fragment roll-in"><small><a>On the Grid you stay connected through a newsfeed of followed sites</a></small></p>
         </section>
         
         <section data-transition="zoom" data-background-transition="slide">
@@ -232,19 +256,29 @@
             font-size: 184px;           
           ">bookmarks suck</h1>
           <h1 class="fragment roll-in" style="
-            font-size: 101px;            
-          ">how to keep ‘em coming back?</h1>
+            font-size: 84px;            
+          ">Hard to keep track of favorite sites</h1>
+          <p class="fragment roll-in"><small><a>The Grid establishes an app-store-like experience where followed sites are saved on a homescreen</a></small></p>
         </section>
                 
         <section data-transition="zoom" data-background-transition="slide"
         data-background="../../img/grid-homescreen-devices.png" >
-          <h1 style="
-            font-size: 184px;           
-            margin: 10px -1200px;
+        <div class="fragment ">
+          <h1 class="" style="
+            font-size: 150px;           
+            margin: 10px -1800px;
             padding: 10px 0;
             -webkit-transform: scale(1) rotate(15deg) translateY(-240px) translateX(260px);
             background-color: hsla(220, 60%, 50%, .8);
           ">Sites as apps</h1>
+        </div>
+          <h1 class="fragment" style="
+            font-size: 75px;           
+            margin: 10px -1200px;
+            padding: 10px 0;
+            -webkit-transform: scale(1) rotate(-15deg) translateY(120px) translateX(260px);
+            background-color: hsla(220, 60%, 50%, .8);
+          ">Across all devices</h1>
         </section>
         
         <section>
@@ -359,36 +393,67 @@
         
         <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-henri.jpg" data-background-size="cover">
           <h1>Henri Bergius</h1>
+          <p>creator of <a href="http://noflojs.org/">NoFlo</a> and <a href="https://github.com/bergie/create">Create.js</a>, author of <a href="http://shop.oreilly.com/product/0636920023081.do">O'Reilly CoffeeScript on Node.js</a>, and <a href="http://shop.oreilly.com/product/0636920023081.do">renowned conf speaker</a></p>
+          <p class="">
+          	<small><a href="https://github.com/bergie">Github</a> 
+              / <a href="https://twitter.com/bergie">Twitter</a></small>
+  				</p>
         </section>
         
         <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-leigh.jpg" data-background-size="cover">
           <h1>Leigh Taylor</h1>
+          <p class="">
+            first full fledged designer at Obvious Corp. and <a href="medium.com">Medium</a>
+  				</p>
+          <p class="">
+          	<small><a href="http://www.behance.net/leightaylor">Behance</a> 
+              / <a href="https://twitter.com/lat">Twitter</a>
+              / <a href="http://dribbble.com/t47lor">Dribbble</a></small>
+  				</p>
         </section>
         
         <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-brian.jpg" data-background-size="cover">
           <h1>Brian Axe</h1>
+          <p class="">
+            product director that brought <a href="http://www.google.com/adsense/start/#utm_source=ww-en-et-storefront_adsense&utm_campaign=en&utm_medium=et&subid=ww-en-et-storefront_adsense">Google AdSense</a> to market
+  				</p>
         </section>
         
-        <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-forrest.jpg" data-background-size="cover">
+        <section data-transition="zoom" data-background-transition="slide" data-background="http://i.imgur.com/Nlc35.gif" data-background-size="cover">
           <h1>Forrest Oliphant</h1>
+          <p class="">
+            creator of <a href="http://meemoo.org/">Meemoo</a>
+  				</p>
+          <p class="">
+          	<small>
+              <a href="https://twitter.com/forresto">Twitter</a>
+              / <a href="https://github.com/forresto">Github</a></small>
+  				</p>
         </section>
         
         <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-gordon.jpg" data-background-size="cover">
           <h1>Gordon Henson</h1>
-        </section>
-        
-        <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-svet.jpg" data-background-size="cover">
-          <h1>Svetly Metodiev</h1>
-        </section>
+          <p>former 3D designer for <a href="http://www.pixar.com/">Pixar</a>, <a href="http://us.playstation.com/corporate/about/">Sony Computer Entertainment</a> and <a href="http://www.konami.com/">Konami</a></p>
+        </section>                
         
         <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-d4.jpg" data-background-size="cover">
           <h1>Dan Tocchini</h1>
+          <p>
+            founder of the Grid and formerly <a href="https://vimeo.com/10994091">4D</a>
+          </p>
           <p class="">
           	<small><a href="http://github.com/d4tocchini">Github</a> 
               / <a href="http://vimeo.com/d4tocchini">Vimeo</a> 
               / <a href="http://facebook.com/d4tocchini">Facebook</a> 
               / <a href="http://twitter.com/d4tocchini">Twitter</a></small>
   				</p>
+        </section>
+        
+        <section data-transition="zoom" data-background-transition="slide" data-background="../../img/team-svet.jpg" data-background-size="cover">
+          <h1>Svetly Metodiev</h1>
+          <p>
+            formerly at Credit Suisse
+          </p>
         </section>
         
         
