@@ -1,13 +1,44 @@
+# Only possible
+
+To use JavaScript on the browser, server & mobile 
+
+
+
+
+# Competitor Insulation
+
+Wordpress will not compete
+
+WP as a architecture is entirely server-side and agnostic to the front-end.  To compete with the Grid would require an aggressive move to front-end infrastructure that would obselete many themes & plugins.  This is highly unlikely, as Matt, founder of WP expressed, "We are draconian about adding new features"
+
+
+Facebook will not compete
+
+"We are not going to add themes, we are not interested in compe"
+
+- VP of Product, Facebook
+
+
+# Customer Acquistion
+
+
+# Technology
+
+Using AI to Scale Design
+
+
 # Can't solve the website problem with Today's tools
-# So we designed our own
+# So we built our own tools
 
 # Designer Platform Technologies
 
-# Developer Platform Technologies
+# Platform Technologies
 
-GSS: Constraint-Based Layout Languages added to CSS 
-Polyrhthmic Pagination: Finite-Domain Constraint Powered Pagination
-The Flo: Development Environment for Flow-Based Programming
+NoFlo: JavaScript Framework for Flow-based Programming
+The Flo: Visual Environment for Flow-Based Programming
+GSS: Constraint-based layout languages added to CSS 
+Polyrhythmic Pagination: Finite-Domain Constraint Powered Pagination
+
 
 1 Pending Patent & several more on the way...
 
@@ -25,7 +56,8 @@ can't align two elements
 
 # Using AI to Scale Good Design
 
-- On the Grid, sites design themselves to adapt the content, "content dictates form." This is accomplished using Constraint Solvers.
+- On the Grid, sites design themselves to adapt the content, "content dictates form." This is accomplished orchestrating several Constraint Solvers.
+
 - Constraint Programming is a paradigm that originated in AI in the 1970s, and more recently, has leveraged as the secret sauce in Search & Machine Learning.
 
 Sites on the Grid are powered by several Constraint Solvers 
