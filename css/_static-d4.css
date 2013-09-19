@@ -11,3 +11,15 @@ body a {overflow:visible !important;}
 .reveal h1 {
   line-height: 1;
 }
+
+.reveal blockquote {
+  width: 90%;
+  margin: 15px auto;
+  padding: 55px;
+  font-style: italic;
+  font-family: georgia, Georgia, serif;
+  text-shadow: 0 1px 1px hsla(0, 100%, 0%, .7);
+  background: hsla(0, 100%, 0%, 0);
+  box-shadow: 0 0 2px hsla(0, 0%, 0%, .2);
+  box-shadow: none;
+}
