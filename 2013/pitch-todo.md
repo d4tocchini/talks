@@ -1,3 +1,7 @@
-Why no one?
+Why no one? ... hard... why? maybe segway to team
 
-Etsy?  KS?
+WP plugins -> FBP, WP Themes -> GSS
+
+Etsy?  KS? on chart
+
+Throw content... from any device
